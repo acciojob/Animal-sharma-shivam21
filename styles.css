@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+.maincontainer {
+	display:grid;
+	grid-template-columns:repeat(3,1fr);
+	gap:10px;
+    padding:20px;
+	background-color: gray;
+	width:fit-content;
+	margin:auto;
+}
+#photo-heading {
+	color:white;
+	text-align:center;
+	margin-bottom:20px;
+	grid-column:1/-1
+	
+}
+.maincontainer img {
+	width:100%;
+	border:1px solid #ccc;
+	border-radius:20px;
+}
